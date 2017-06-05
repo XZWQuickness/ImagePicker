@@ -21,7 +21,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.github.chrisbanes.photoview:latest.release'
+  compile 'com.github.chrisbanes.photoview:library:1.2.4'
 }
 
 //apply from: '../bintray.gradle'
